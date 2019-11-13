@@ -18,9 +18,12 @@ body {
 }
 
 .img {
-  width: 100%;
-  max-width: 32%;
-  margin: 3rem;
+  width: 32%;
+  margin-right: 2.5rem;
+}
+
+.text {
+  width: 60%;
 }
 
 .content img {
@@ -41,19 +44,19 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 100%;
-  max-width: 700px;
+  max-width: 45em;
+  padding: 0 1.5rem;
 }
 
 h2 {
   font-size: 3rem;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
-  margin-top: 1rem;
   margin-bottom: 0;
+  margin-top: 0;
   line-height: 1.2;
-  max-width: 400px;
 }
 
 p {
